@@ -132,5 +132,3 @@ This has already been patched in `robot.urdf.xacro` by explicitly mirroring the 
 Ensure you installed the Python dependencies using `pip` inside the same environment where you are sourcing ROS 2. 
 
 ---
-
-*Developed with ❤️ using ROS 2 and MediaPipe.*
