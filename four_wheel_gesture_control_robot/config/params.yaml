@@ -1,0 +1,27 @@
+hand_gesture_node:
+  ros__parameters:
+    camera_index: 0
+    publish_rate: 20.0
+    max_linear_vel: 0.6
+    max_angular_vel: 1.0
+    smoother_window: 10
+    min_detection_confidence: 0.7
+    min_tracking_confidence: 0.7
+    show_window: true
+    flip_camera: true
+
+differential_drive_node:
+  ros__parameters:
+    wheel_radius: 0.05
+    wheel_base: 0.20
+    wheel_separation: 0.25
+    max_wheel_rpm: 200.0
+    cmd_timeout: 0.5
+    odom_frame_id: "odom"
+    base_frame_id: "base_link"
+    publish_rate: 50.0
+
+robot_visualizer_node:
+  ros__parameters:
+    odom_topic: "/odom"
+    marker_topic: "/robot_marker"
